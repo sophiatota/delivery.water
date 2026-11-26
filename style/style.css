@@ -1,14 +1,15 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #0171c7;
 }
 
 body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    background-color: #ffffff;
 }
 
 #principal {
@@ -16,6 +17,128 @@ body {
     min-height: 100vh;
 }
 
-.maintop{
-  
+#gelado{
+    width: 30%;
+    min-height: 40%;
 }
+
+/* IMAGEM E MENU */
+
+.banner {
+    position: relative;
+}
+
+.texto {
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+}
+
+/* ORGANIZAÇÃO DOS LINKS */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.caixa-menu {
+    display: inline-block;
+    padding: 8px 5px;
+    
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    background: transparent;
+    
+    border: none;
+    outline: none;
+    box-shadow: none;
+
+    transition: color 0.4s ease;
+}
+
+/* EFEITO AO PASSAR O MOUSE */
+
+.caixa-menu:hover {
+    color: #ffffff;
+    background: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+/* SEÇÕES */
+
+section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* SUBTÍTULO */
+
+.subtitulo {
+    color: #079dcc;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* TÍTULOS */
+
+section h2 {
+    color: #073c60;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* PARÁGRAFOS */
+
+section p {
+    color: #648092;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* IMAGENS */
+
+.imagem-secao {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.4s ease;
+}
+
+.imagem-secao:hover {
+    transform: scale(1.03);
+}
+.caixa{
+    background: #cdeffd;
+    color: #3d5a80;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    transition: 0.3s;
+
+    display: grid;
+    place-items: center;
+}
+
+.alta{
+    grid-row: span 2;
+    background-color: rgb(143, 219, 143);
+    color: green;
+}
+
+
+
+

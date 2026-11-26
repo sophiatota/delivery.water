@@ -1,0 +1,39 @@
+
+.item {
+    background: #079dcc;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    background: #e8faff;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.flexivel .item {
+    flex: 1;
+}
+
+.caixa{
+    background: #cdeffd;
+    color: #3d5a80;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    transition: 0.3s;
+
+    display: grid;
+    place-items: center;
+}
+
+.alta{
+    grid-row: span 2;
+    background-color: rgb(143, 219, 143);
+    color: green;
+}
