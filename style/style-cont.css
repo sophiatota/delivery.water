@@ -72,9 +72,6 @@
     font-size: 14px;
 }
 
-
-/* Formulário Seja Nosso Parceiro */
-
 form {
     max-width: 750px;
     margin: 40px auto;
@@ -85,7 +82,7 @@ form {
     font-family: Arial, sans-serif;
 }
 
-/* Título e descrição */
+
 h2 {
     text-align: center;
     color: #087ca5;
@@ -97,7 +94,6 @@ main > p {
     color: #527080;
 }
 
-/* Fieldsets */
 fieldset {
     border: 2px solid #a5dced;
     border-radius: 12px;
@@ -106,7 +102,6 @@ fieldset {
     background: #f7fdff;
 }
 
-/* Legendas */
 legend {
     color: #087ca5;
     font-size: 19px;
@@ -114,7 +109,6 @@ legend {
     padding: 0 10px;
 }
 
-/* Labels */
 label {
     display: inline-block;
     color: #315b70;
@@ -122,7 +116,6 @@ label {
     margin: 12px 0 6px;
 }
 
-/* Campos */
 input,
 select,
 textarea {
@@ -138,7 +131,7 @@ textarea {
     transition: 0.3s;
 }
 
-/* Efeito ao selecionar */
+
 input:focus,
 select:focus,
 textarea:focus {
@@ -146,12 +139,12 @@ textarea:focus {
     box-shadow: 0 0 6px rgba(7, 157, 204, 0.25);
 }
 
-/* Área de mensagem */
+
 textarea {
     resize: vertical;
 }
 
-/* Botão */
+
 button {
     width: 100%;
     padding: 14px;

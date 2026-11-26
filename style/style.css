@@ -47,7 +47,6 @@ body {
     transform: translate(-50%, -50%);
 }
 
-
 nav {
     display: flex;
     justify-content: center;
@@ -70,8 +69,6 @@ nav {
     transition: color 0.4s ease;
 }
 
-
-
 .caixa-menu:hover {
     color: #ffffff;
     background: transparent;
@@ -80,14 +77,10 @@ nav {
     box-shadow: none;
 }
 
-
-
-
 section {
     padding-top: 16px;
     padding-bottom: 4px;
 }
-
 
 .subtitulo {
     color: #079dcc;
@@ -96,14 +89,11 @@ section {
     letter-spacing: 2px;
 }
 
-
-
 section p {
     color: #648092;
     font-size: 16px;
     line-height: 1.8;
 }
-
 
 .imagem-secao {
     width: 100%;
@@ -218,4 +208,3 @@ h2 {
     border-radius: 20px;
     font-size: 14px;
 }
-
