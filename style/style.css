@@ -1,3 +1,7 @@
+@font-face {
+    font-family: adjust_smile;
+    src: url(../fonts/adjust_smile/Adjust\ Smile\ DEMO\ VERSION.otf) format(truetype);
+}
 
 * {
     margin: 0;
@@ -17,12 +21,20 @@ body {
     min-height: 100vh;
 }
 
-#gelado{
-    width: 30%;
-    min-height: 40%;
+#gelado {
+    width: 70%;
+    min-height: 60%;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.502);
+    margin-bottom: 100px;
+    transition: 0.3s;
 }
 
-/* IMAGEM E MENU */
+.transi:hover {
+    transition: 0.3s;
+    transform: translateY(-5px) scale(1.02);
+}
 
 .banner {
     position: relative;
@@ -33,27 +45,24 @@ body {
     top: 13%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
-    
 }
 
-/* ORGANIZAÇÃO DOS LINKS */
+
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
-    
 }
 
 .caixa-menu {
     display: inline-block;
     padding: 8px 5px;
-    
+
     text-decoration: none;
     color: rgba(255, 255, 255, 0.60);
     background: transparent;
-    
+
     border: none;
     outline: none;
     box-shadow: none;
@@ -61,7 +70,7 @@ nav {
     transition: color 0.4s ease;
 }
 
-/* EFEITO AO PASSAR O MOUSE */
+
 
 .caixa-menu:hover {
     color: #ffffff;
@@ -73,14 +82,12 @@ nav {
 
 
 
-/* SEÇÕES */
 
 section {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 16px;
+    padding-bottom: 4px;
 }
 
-/* SUBTÍTULO */
 
 .subtitulo {
     color: #079dcc;
@@ -89,17 +96,7 @@ section {
     letter-spacing: 2px;
 }
 
-/* TÍTULOS */
 
-section h2 {
-    color: #073c60;
-    font-size: 35px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-/* PARÁGRAFOS */
 
 section p {
     color: #648092;
@@ -107,7 +104,6 @@ section p {
     line-height: 1.8;
 }
 
-/* IMAGENS */
 
 .imagem-secao {
     width: 100%;
@@ -120,7 +116,8 @@ section p {
 .imagem-secao:hover {
     transform: scale(1.03);
 }
-.caixa{
+
+.caixa {
     background: #cdeffd;
     color: #3d5a80;
     font-weight: bold;
@@ -133,12 +130,92 @@ section p {
     place-items: center;
 }
 
-.alta{
+.alta {
     grid-row: span 2;
     background-color: rgb(143, 219, 143);
     color: green;
 }
 
+.sobre-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.sobre-container p {
+    flex: 1;
+}
+
+#gelado {
+    width: 100%;
+    height: -4px;
+}
+
+section h2 {
+    color: #073c60;
+    font-size: 35px;
+    text-align: left;
+    margin: 0 0 0px 0;
+    padding-top: 2px;
+}
+
+.container {
+    display: flex;
 
 
+    padding: 10px;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.item {
+    background: #ffffffbd;
+    color: rgb(3, 37, 95);
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#para {
+    color: rgb(3, 37, 95);
+}
+
+
+.sobre {
+    padding: 20px 0;
+}
+
+
+.institucional {
+    background-color: #228ecc;
+    padding: 60px 0;
+}
+
+.caixa {
+    background-color: #2588c2;
+
+    border-radius: 15px;
+    text-align: center;
+    min-height: 350px;
+}
+
+.caixa h3 {
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-family: adjust_smile;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    margin: 0 30px 20px;
+    background-color: #096fbe;
+    color: #ebebec;
+    border-radius: 20px;
+    font-size: 14px;
+}
 

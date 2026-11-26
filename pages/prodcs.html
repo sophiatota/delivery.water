@@ -12,6 +12,37 @@
 
     <link rel="stylesheet" href="/style/style.css">
     <link rel="stylesheet" href="/style/style-prod.css">
+
+    <style>
+        .produto-imagem {
+            width: 100%;
+            height: 260px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+
+        .produto-imagem img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .preco-antigo {
+            color: #888;
+            text-decoration: line-through;
+            font-size: 15px;
+            margin-bottom: 3px;
+        }
+
+        .preco-promocional {
+            color: #079dcc;
+            font-size: 22px;
+            font-weight: bold;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -25,10 +56,9 @@
             <div class="texto">
 
                 <nav>
-                    <a class="caixa-menu" href="index.html">Home</a>
-                    <a class="caixa-menu" href="./pages/prodcs.html">Produtos</a>
-                    <a class="caixa-menu" href="./pages/contato.html">Contato</a>
-                   
+                    <a class="caixa-menu" href="/index.html">Home</a>
+                    <a class="caixa-menu" href="/pages/prodcs.html">Produtos</a>
+                    <a class="caixa-menu" href="/pages/contato.html">Contato</a>
                 </nav>
 
             </div>
@@ -37,39 +67,206 @@
 
     </header>
 
-    <main >
+    <main>
+
+        <h2 class="text-center mb-4">Nossos Produtos</h2>
+
+        <div class="container">
+
         
 
-<section>
-    <h2>Nossos produtos</h2>
-    <p>Confira alguns dos produtos disponíveis na Frosty!</p>
+            
 
-    <div class="container flexivel">
-
-        <div class="item">
-            <h3>Produto 01</h3>
-            <img src="./img/produto1.png" alt="Produto 01">
-            <p>R$ 49,90</p>
         </div>
 
-        <div class="item">
-            <h3>Produto 02</h3>
-            <img src="./img/produto2.png" alt="Produto 02">
-            <p>R$ 59,90</p>
+        <div class="container">
+
+            <div class="row justify-content-center align-items-center">
+
+                <div class="col-12 col-md-4 text-center mb-4">
+
+                    <div class="produto-imagem">
+                        <img src="/img/Garrafa Frosty com Mascote Corredor.png" alt="Garrafa Frosty">
+                    </div>
+
+                    <h5>R$ 1.500,00</h5>
+                    <p>Uma garrafa para acompanhar você.</p>
+
+                </div>
+
+
+                <div class="col-12 col-md-4 text-center mb-4">
+
+                    <div class="produto-imagem">
+                        <img src="/img/infal.png" alt="Produto 5">
+                    </div>
+
+                    <h5>R$ 5.000,00</h5>
+                    <p>Qualidade e frescor para sua rotina.</p>
+
+                </div>
+
+
+                <div class="col-12 col-md-4 text-center mb-4">
+
+                    <div class="produto-imagem">
+                        <img src="/img/kkii.png" alt="Produto 6">
+                    </div>
+
+                    <p class="preco-antigo">R$ 8000,00</p>
+
+                    <h5 class="preco-promocional">R$ 500,00</h5>
+
+                    <p>Promoção!</p>
+                    <p>A escolha ideal para se manter hidratado.</p>
+
+                </div>
+
+                <div class="col-12 col-md-4 text-center mb-4">
+
+                    <div class="produto-imagem">
+                        <img src="/img/FIL.png" alt="Produto 6">
+                    </div>
+
+                    <p class="preco-antigo">R$ 4000,00</p>
+
+                    <h5 class="preco-promocional">R$250,00</h5>
+
+                    <p>Promoção!</p>
+                    <p>A escolha ideal para se manter hidratado.</p>
+
+                </div>
+
+                <div class="col-12 col-md-4 text-center mb-4">
+
+                    <div class="produto-imagem">
+                        <img src="/img/del.png" alt="Produto 6">
+                    </div>
+
+                    <p class="preco-antigo">R$ 7000,00</p>
+
+                    <h5 class="preco-promocional">R$850,00</h5>
+
+                    <p>Promoção!</p>
+                    <p>A escolha ideal para se manter hidratado.</p>
+
+                </div>
+                <div class="col-12 col-md-4 text-center mb-4">
+
+                    <div class="produto-imagem">
+                        <img src="/img/GELO.png " alt="Produto 5">
+                    </div>
+
+                    <h5>R$ 5.000,00</h5>
+                    <p>Qualidade e frescor para sua rotina.</p>
+
+                </div>
+                 <div class="row justify-content-center align-items-center">
+
+                <div class="col-12 col-md-4 text-center mb-4">
+
+                    <div class="produto-imagem">
+                        <img src="/img/ga.png" alt="Produto 1">
+                    </div>
+
+                    <h5>R$ 200,00</h5>
+                    <p>Água gelada para refrescar seu dia.</p>
+
+                </div>
+
+
+                <div class="col-12 col-md-4 text-center mb-4">
+
+                    <div class="produto-imagem">
+                        <img src="/img/ra.png" alt="Produto 2">
+                    </div>
+
+                    <h5>R$ 55,00</h5>
+                    <p>Praticidade e qualidade para o seu dia a dia.</p>
+
+                </div>
+
+
+                <div class="col-12 col-md-4 text-center mb-4">
+
+                    <div class="produto-imagem">
+                        <img src="/img/fa.png" alt="Produto 3">
+                    </div>
+
+                    <h5>R$ 400,00</h5>
+                    <p>Refrescância e hidratação em qualquer momento.</p>
+
+                </div>
+
+            </div>
+
+            </div>
+
         </div>
+        <table>
 
-        <div class="item">
-            <h3>Produto 03</h3>
-            <img src="./img/produto3.png" alt="Produto 03">
-            <p>R$ 69,90</p>
-        </div>
+            <thead>
+                <tr>
+                    <th>Nível</th>
+                    <th>Temperatura</th>
+                    <th>Classificação</th>
+                </tr>
+            </thead>
 
-    </div>
-</section>
-    
+            <tbody>
 
+                <tr>
+                    <td>❄️</td>
+                    <td>15 °C</td>
+                    <td>Levemente gelada</td>
+                </tr>
+
+                <tr>
+                    <td>❄️❄️</td>
+                    <td>12 °C</td>
+                    <td>Pouco gelada</td>
+                </tr>
+
+                <tr>
+                    <td>❄️❄️❄️</td>
+                    <td>9 °C</td>
+                    <td>Gelada</td>
+                </tr>
+
+                <tr>
+                    <td>❄️❄️❄️❄️</td>
+                    <td>5 °C</td>
+                    <td>Muito gelada</td>
+                </tr>
+
+                <tr>
+                    <td>❄️❄️❄️❄️❄️</td>
+                    <td>1 °C</td>
+                    <td>Extremamente gelada</td>
+                </tr>
+
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="3">
+                        Temperaturas classificadas de acordo com o nível de resfriamento da água.
+                    </td>
+                </tr>
+            </tfoot>
+
+        </table>
 
     </main>
 
+
+    <footer class="footer">
+
+        <p>&copy; 2026</p>
+        <p>frosty</p>
+
+    </footer>
+
 </body>
+
 </html>

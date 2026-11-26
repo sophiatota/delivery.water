@@ -1,0 +1,193 @@
+
+.contato {
+    padding: 60px 8%;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-radius:20px black;
+}
+
+.contato h1 {
+    color: #087da5;
+    font-size: 32px;
+    margin-bottom: 45px;
+}
+
+.contato-container {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px 35px;
+}
+
+.contato-item {
+    text-align: left;
+    padding: 15px;
+    border: 2px solid #1685ada4;
+}
+
+.icone {
+    font-size: 30px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.contato-item h2 {
+    color: #1685ad;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.contato-item p {
+    color: #777777;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.contato-item a,
+.contato-item strong {
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contato-item a:hover {
+    color: #1685ad;
+    text-decoration: underline;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    margin: 0 30px 20px;
+    background-color: #096fbe;
+    color: #ffffff;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+
+/* Formulário Seja Nosso Parceiro */
+
+form {
+    max-width: 750px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #e8faff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 100, 150, 0.12);
+    font-family: Arial, sans-serif;
+}
+
+/* Título e descrição */
+h2 {
+    text-align: center;
+    color: #087ca5;
+    margin-top: 30px;
+}
+
+main > p {
+    text-align: center;
+    color: #527080;
+}
+
+/* Fieldsets */
+fieldset {
+    border: 2px solid #a5dced;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 25px;
+    background: #f7fdff;
+}
+
+/* Legendas */
+legend {
+    color: #087ca5;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+/* Labels */
+label {
+    display: inline-block;
+    color: #315b70;
+    font-weight: bold;
+    margin: 12px 0 6px;
+}
+
+/* Campos */
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #a5dced;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #315b70;
+    font-size: 15px;
+    outline: none;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+/* Efeito ao selecionar */
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #079dcc;
+    box-shadow: 0 0 6px rgba(7, 157, 204, 0.25);
+}
+
+/* Área de mensagem */
+textarea {
+    resize: vertical;
+}
+
+/* Botão */
+button {
+    width: 100%;
+    padding: 14px;
+    background: #079dcc;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #067da5;
+    transform: translateY(-2px);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    margin: 0 30px 20px;
+    background-color: #096fbe;
+    color: #ffffff;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    margin: 0 30px 20px;
+    background-color: #096fbe;
+    color: #ebebec;
+    border-radius: 20px;
+    font-size: 14px;
+}
